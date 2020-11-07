@@ -1,8 +1,9 @@
 import React from "react";
 
 
+
 function Header() {
-    return <h1>Head of the page</h1>
+    return <h1>header title</h1>
 }
 
 export default Header;
