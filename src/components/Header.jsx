@@ -12,15 +12,15 @@ function Header() {
     return (
     <>
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home"><WorkflowIcon size={40} /></Navbar.Brand>
+          <Navbar.Brand href="#home"><WorkflowIcon size={50} /></Navbar.Brand>
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
           </Nav>
           <Nav>
-          <Nav.Link href="#features">Features</Nav.Link>
+          <Nav.Link href="#features">Projects</Nav.Link>
           </Nav> 
           <Nav>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="#pricing">About</Nav.Link>
           </Nav>
           
         

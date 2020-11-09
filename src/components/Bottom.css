@@ -1,0 +1,11 @@
+body {
+  /* background-color: #bbbfca; */
+
+  background-color: #181a1f;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+h1 {
+  color: cornsilk;
+}
