@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header.jsx";
-import Bottom from './components/Bottom.jsx';
+import Footer from './components/Footer.jsx';
+import Body from './components/Body.jsx';
 
 
 
@@ -11,7 +12,8 @@ function App() {
     
     <div>
     <Header />
-    <Bottom />
+    <Body />
+    <Footer />
     </div>
   )
  
