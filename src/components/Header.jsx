@@ -22,9 +22,7 @@ function Header() {
           <Nav>
           <Nav.Link href="#pricing">About</Nav.Link>
           </Nav>
-          
-        
-        </Navbar>
+          </Navbar>
     </>)
 }
 
