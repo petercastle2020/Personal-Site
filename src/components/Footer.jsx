@@ -5,7 +5,7 @@ function Footer() {
     return (
 
         <footer>
-            <h1>this is the end!</h1>
+            <h2>this is the end!</h2>
         </footer>
     
     )

@@ -6,7 +6,9 @@ h1 {
 footer {
   text-align: center;
 
-  background-color: #181a1f;
-  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  padding: 20%;
+
+  background-color: #0e0c1a;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }

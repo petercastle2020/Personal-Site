@@ -1,7 +1,7 @@
 import React from "react";
-import {Navbar, Nav, Form, FormControl, Button} from "react-bootstrap";
+import {Navbar, Nav} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {WorkflowIcon, SearchIcon} from '@primer/octicons-react'
+import {WorkflowIcon} from '@primer/octicons-react'
 import '../components/Header.css';
 
 
@@ -10,7 +10,7 @@ import '../components/Header.css';
 
 function Header() {
     return (
-    <>
+    <div className="nav-bar-div">
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand href="#home"><WorkflowIcon size={50} /></Navbar.Brand>
           <Nav>
@@ -23,7 +23,8 @@ function Header() {
           <Nav.Link href="#pricing">About</Nav.Link>
           </Nav>
           </Navbar>
-    </>)
+    </div>
+    )
 }
 
 export default Header;

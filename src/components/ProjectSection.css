@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-section {
+  text-align: center;
+
+  padding: 25%;
+
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
