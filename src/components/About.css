@@ -1,14 +1,14 @@
-h1 {
+h2 {
   color: cornsilk;
   margin: 0;
 }
 
-footer {
+.about-div {
   text-align: center;
 
   padding: 25%;
 
-  background-color: #000000;
-  background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+  background-color: #0e0c1a;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }

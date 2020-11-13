@@ -1,6 +1,7 @@
 import React from "react";
 import '../components/Body.css';
 
+
 function Body() {
     return (
     <div className="body-body">
