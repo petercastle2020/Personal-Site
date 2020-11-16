@@ -1,8 +1,8 @@
 import React from "react";
-import '../components/Body.css';
+import '../home-page/Home-page.css';
 
 
-function Body() {
+function Home() {
     return (
     <div className="body-body">
         <h1>I'm Peter Castle</h1>
@@ -11,4 +11,4 @@ function Body() {
     )
 }
 
-export default Body;
+export default Home;

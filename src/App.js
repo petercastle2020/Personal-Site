@@ -1,15 +1,15 @@
 import "./App.css";
-import Header from "./components/Header.jsx";
-import Footer from './components/Footer.jsx';
-import Body from './components/Body.jsx';
-import ProjectSection from './components/ProjectSection.jsx';
-import About from './components/About.jsx';
+import Header from "./components/header/Header.jsx";
+import Footer from './components/footer/Footer.jsx';
+import Home from './components/home-page/Home-page.jsx';
+import ProjectSection from './components/projectSection/ProjectSection.jsx';
+import About from './components/about/About.jsx';
 
 function App() {
   return (
     <div>
     <Header />
-    <Body />
+    <Home />
     <ProjectSection />
     <About />
     <Footer />

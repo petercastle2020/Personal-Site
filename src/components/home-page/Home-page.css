@@ -6,13 +6,14 @@ h1 {
   text-align: center;
   margin: 0;
   font-family: "Sacramento", cursive;
+  color: #ffffff;
 }
 
 h2 {
   text-align: center;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  color: darkgrey;
+  color: rgb(49, 44, 44);
 }
 
 span {

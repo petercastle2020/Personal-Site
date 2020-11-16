@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/Footer.css';
+import '../footer/Footer.css';
 import CopyrightIcon from '@material-ui/icons/Copyright';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';

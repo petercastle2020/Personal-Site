@@ -1,10 +1,10 @@
 import React from 'react';
-import '../components/ProjectSection.css';
+import '../projectSection/ProjectSection.css';
 
 function ProjectSection() {
     return (
         <div className="project-section">
-            <h2>Project Section</h2>
+            <h2 className="project-text">Project Section</h2>
         </div>
     )
 }
