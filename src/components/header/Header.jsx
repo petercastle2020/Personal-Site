@@ -1,8 +1,8 @@
 import React from "react";
 import {Navbar, Nav} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {WorkflowIcon} from '@primer/octicons-react'
 import '../header/Header.css';
+import ScatterPlotIcon from '@material-ui/icons/ScatterPlot';
 
 
 
@@ -12,7 +12,7 @@ function Header() {
     return (
     <div className="nav-bar-div">
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home"><WorkflowIcon size={50} /></Navbar.Brand>
+          <Navbar.Brand href="#home"><ScatterPlotIcon style={{ fontSize: 60}} /></Navbar.Brand>
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
           </Nav>
