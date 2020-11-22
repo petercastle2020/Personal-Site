@@ -10,7 +10,7 @@ function Home() {
     return (
     <div className="home-div">
         <div className="nav-content">
-        <h3>Home Projects About</h3>
+        <h3><a>Home</a> Projects About</h3>
         </div>
         <div className="homepage-content">
         <img className="programming_white-img" src={programming_white} width="50%" height="50%" alt="programming_white-img"/>
