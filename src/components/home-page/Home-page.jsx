@@ -1,22 +1,28 @@
 import React from "react";
 import '../home-page/Home-page.css';
-import mobile_user from '../home-page/mobile_user.svg';
-import creative_thinking from '../home-page/creative_thinking.svg';
+
+import programming_white from '../home-page/programming_white.svg';
+
+
 
 
 function Home() {
     return (
     <div className="home-div">
-    <div className="nav-content">
-    <h3>Home Projects About</h3>
-    </div>
-    <div className="homepage-content">
-    {/*<img className="mobile-user-img" src={mobile_user} width="30%" height="30%" alt="mobile-user-img"/>*/}
-    <h1>I'm Peter Castle</h1>
-    <h2>a <span>web</span> developer.</h2>  
-    {/* <img className="creative-thinking-img"src={creative_thinking} width="30%" height="30%" alt="creative-thinking-img"/>*/}
-    {/*<img src={mobile_user} width="50%" height="50%" alt="mobile-user-img"/>*/}
-    </div>
+        <div className="nav-content">
+        <h3>Home Projects About</h3>
+        </div>
+        <div className="homepage-content">
+        <img className="programming_white-img" src={programming_white} width="50%" height="50%" alt="programming_white-img"/>
+        <h1>Hi, I'm Peter</h1>
+        <h2>Etiam scelerisque quam ligula, ac <br/>porttitor justo facilisis sollicitudin.</h2> 
+        <h2>Vestibulum ipsum sem, tristique quis malesuada<br/> suscipit, ullamcorper sit amet justo.</h2> 
+        <button>Check out my work</button>
+        
+        
+        
+        
+        </div>
        
     </div>
     )

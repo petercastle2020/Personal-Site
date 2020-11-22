@@ -1,20 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
 h1 {
+  color: #ffffff;
   font-size: 7em;
-  text-align: center;
+  font-family: "Dancing Script", cursive;
+  text-align: left;
   margin: 0;
-  font-family: "Sacramento", cursive;
-  color: #33313b;
-}
-
-span {
-  text-decoration: underline;
+  padding-top: 10%;
 }
 
 .home-div {
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-grey-wallpaper-HD.png");
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Grey-Wallpaper-free-download.jpg");
 }
 
 .nav-content {
@@ -29,7 +27,7 @@ span {
 }
 
 .homepage-content {
-  padding: 20% 20% 20% 20%;
+  padding: 0% 2% 11% 2%;
 
   margin: 0;
 
@@ -41,20 +39,19 @@ span {
 }
 
 .homepage-content h2 {
-  text-align: center;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(49, 44, 44);
-}
-
-.creative-thinking-img {
+  padding-top: 3%;
   text-align: left;
   margin: 0;
-  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  line-height: 2em;
 }
 
-.mobile-user-img {
-  text-align: right;
-  margin: 0;
-  padding: 0;
+.programming_white-img {
+  float: right;
+  padding: 10% 5% 5% 5%;
+}
+
+button {
+  margin-top: 3%;
 }
