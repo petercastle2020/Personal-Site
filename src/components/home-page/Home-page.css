@@ -14,11 +14,12 @@ h1 {
 /* Link Stuff */
 a {
   color: #ffffff;
-  margin-left: 2.5em;
+  margin-left: 4em;
 }
 
 a:link {
   text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -38,46 +39,16 @@ a:active {
   background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Grey-Wallpaper-free-download.jpg");
 }
 
-.nav-content {
-  text-align: left;
-}
-
-/* Blur Stuff */
-
-.backgroundBlur {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: red;
-  filter: blur(3px);
-  z-index: -1;
-}
-
-.backgroundNoBlur {
-  position: relative;
-  height: 100px;
-  width: 100px;
-}
-
 .nav-content h3 {
   font-family: "Montserrat", sans-serif;
-  text-align: right;
   margin: 0;
   padding: 1.5em 2em 1.5em 0;
+  text-align: right;
 }
 
 .homepage-content {
   padding: 0% 2% 11% 2%;
-
   margin: 0;
-
-  /* background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-grey-wallpaper-HD.png"); */
-  /* background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-grey-wallpaper-HD-download-free.png"); */
-  /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
-
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .homepage-content h2 {
