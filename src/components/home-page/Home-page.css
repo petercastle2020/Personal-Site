@@ -11,6 +11,29 @@ h1 {
   padding-top: 10%;
 }
 
+/* Link Stuff */
+a {
+  color: #ffffff;
+  margin-left: 2.5em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 .home-div {
   background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Grey-Wallpaper-free-download.jpg");
 }
@@ -19,11 +42,30 @@ h1 {
   text-align: left;
 }
 
+/* Blur Stuff */
+
+.backgroundBlur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+.backgroundNoBlur {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
 .nav-content h3 {
   font-family: "Montserrat", sans-serif;
   text-align: right;
   margin: 0;
-  padding: 2em 2em 0 0;
+  padding: 1.5em 2em 1.5em 0;
 }
 
 .homepage-content {
