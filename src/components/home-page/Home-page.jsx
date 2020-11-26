@@ -20,7 +20,7 @@ function Home() {
                     <h1>Hi, I'm Peter</h1>
                     <h2>Etiam scelerisque quam ligula, ac <br/>porttitor justo facilisis sollicitudin.</h2> 
                     <h2>Vestibulum ipsum sem, tristique quis malesuada<br/> suscipit, ullamcorper sit amet justo.</h2> 
-                    <button>Check out my work</button>
+                    <button className="button">Check out my work</button>
                 
                 
                 

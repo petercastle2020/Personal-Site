@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 footer {
   text-align: center;
 
   padding: 0;
 
-  background-color: #000000;
-  background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+  background-color: #19181a;
+  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
@@ -16,9 +18,21 @@ footer {
 
 .Icon {
   color: rgb(255, 255, 255);
-  margin: 4% 2% 4% 2%;
+  margin: 2% 0 0% 0;
+  padding: 0;
 }
 
 .Icon:hover {
   color: #808080;
+}
+
+.footer-div h2 {
+  padding: 2% 2%;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-div a {
+  padding: 0;
+  margin: 0 2% 2%;
 }
